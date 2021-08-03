@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31521.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{37EEEAE7-82D5-4C32-A3A2-C5792C4A20B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1BA27964-F3DD-4BDD-ACFD-7E2399E704DB}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "example", "example", "{86096D18-7D0E-45FA-98D1-F332F5A24CE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageGrabber", "src\ImageGrabber\ImageGrabber.csproj", "{B8BE2AA2-CE62-43A9-80F4-4B6AEFCD8548}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyOfImages", "example\AssemblyOfImages\AssemblyOfImages.csproj", "{658C3EB9-86F7-4B2D-AC8D-EAF69C4F00EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8BE2AA2-CE62-43A9-80F4-4B6AEFCD8548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8BE2AA2-CE62-43A9-80F4-4B6AEFCD8548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8BE2AA2-CE62-43A9-80F4-4B6AEFCD8548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8BE2AA2-CE62-43A9-80F4-4B6AEFCD8548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{658C3EB9-86F7-4B2D-AC8D-EAF69C4F00EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{658C3EB9-86F7-4B2D-AC8D-EAF69C4F00EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{658C3EB9-86F7-4B2D-AC8D-EAF69C4F00EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{658C3EB9-86F7-4B2D-AC8D-EAF69C4F00EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B8BE2AA2-CE62-43A9-80F4-4B6AEFCD8548} = {37EEEAE7-82D5-4C32-A3A2-C5792C4A20B0}
+		{658C3EB9-86F7-4B2D-AC8D-EAF69C4F00EB} = {86096D18-7D0E-45FA-98D1-F332F5A24CE0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0360CFC-0F0E-44AE-98B0-039EAAB58BFB}
+	EndGlobalSection
+EndGlobal
