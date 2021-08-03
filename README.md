@@ -1,5 +1,4 @@
 # EmbeddedImageGrabber
-Extracting Embedded Images from an Assembly
 
 This project is based on [Extracting-Embedded-Images-From-An-Assembly](https://www.codeproject.com/Articles/13573/Extracting-Embedded-Images-From-An-Assembly) and adds new functionality like:
 
